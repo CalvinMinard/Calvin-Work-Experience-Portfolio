@@ -741,6 +741,10 @@ section h2,
     pointer-events: auto !important;
   }
 
+  ul li {
+    margin-bottom: 0.75rem;
+  }
+
   section {
     padding: 1rem 1rem;
   }
