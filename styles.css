@@ -617,8 +617,6 @@ section h2,
     color: var(--color-highlight);
     text-decoration: none;
     transition-duration: 200ms;
-    width: 100%;
-    margin-right: auto;
     font-size: 0.8rem;
   }
 
