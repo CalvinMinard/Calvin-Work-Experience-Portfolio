@@ -806,6 +806,10 @@ section h2,
     display: none !important;
   }
 
+  a[data-lightbox]:not(.redirect-link) {
+    display: none !important;
+  }
+
   /* Restore Lightbox controls visibility */
   .lightboxOverlay,
   .lightbox {
