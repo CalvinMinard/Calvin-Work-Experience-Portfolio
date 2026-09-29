@@ -99,11 +99,6 @@ header h5 {
   font-weight: 300;
 }
 
-main h4 {
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -265,12 +260,14 @@ section h2,
     position: relative; /* required for clean sticky behavior */
   }
 
-  .work-experience h2 {
+  .work-experience-wrapper h4 {
     position: sticky;
     top: 0;
     background: transparent; /* or whatever your page background is */
     z-index: 10;
     padding: 0.5rem 0;
+    font-weight: 300;
+    text-transform: uppercase;
   }
 
   #work-experience {
