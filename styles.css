@@ -72,6 +72,7 @@ header {
 
 header h1,
 header h3,
+header h4,
 header h5,
 .lightText {
   color: var(--color-highlight);
@@ -92,6 +93,11 @@ header h3 {
 
 header h3 a {
   text-decoration: none;
+}
+
+header h4 {
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 header h5 {
