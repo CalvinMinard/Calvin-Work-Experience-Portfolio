@@ -263,11 +263,13 @@ section h2,
   .work-experience-wrapper h4 {
     position: sticky;
     top: 0;
-    background: transparent; /* or whatever your page background is */
+    background: #0f172a; /* or whatever your page background is */
     z-index: 10;
     padding: 0.5rem 0;
     font-weight: 300;
     text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   #work-experience {
