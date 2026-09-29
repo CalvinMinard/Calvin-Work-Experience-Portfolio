@@ -262,7 +262,7 @@ section h2,
   .work-experience h2 {
     position: sticky;
     top: 0;
-    background: #0f172a; /* or whatever your page background is */
+    background: transparent; /* or whatever your page background is */
     z-index: 10;
     padding: 0.5rem 0;
   }
