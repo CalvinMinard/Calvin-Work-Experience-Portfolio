@@ -767,8 +767,8 @@ section h2,
     margin: 0;
   }
 
-  a[data-lightbox] {
-    display: none;
+  a[data-lightbox]:empty {
+    display: none !important;
   }
 
   a {
