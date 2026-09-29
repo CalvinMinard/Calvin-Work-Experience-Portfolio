@@ -767,9 +767,9 @@ section h2,
     margin: 0;
   }
 
-  /*a[data-lightbox] {
+  a[data-lightbox] {
     display: none;
-  }*/
+  }
 
   a {
     display: inline-block;
