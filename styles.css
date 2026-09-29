@@ -544,6 +544,7 @@ section h2,
     flex-direction: column;
     gap: 0.5rem;
     align-items: flex-start;
+    width: 100%;
   }
 
   .education-credentials .tenure {
