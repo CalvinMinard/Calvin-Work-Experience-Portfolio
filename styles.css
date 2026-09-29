@@ -528,6 +528,17 @@ section h2,
     gap: 1rem;
   }
 
+  .education-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start; /* ← correct for education */
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .education-credentials .tenure {
     font-weight: 500;
     color: var(--color-accent);
