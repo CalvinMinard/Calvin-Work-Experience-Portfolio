@@ -767,12 +767,12 @@ section h2,
     margin: 0;
   }
 
-  a[data-lightbox]:empty {
-    display: none !important;
-  }
-
   a {
     display: inline-block;
+  }
+
+  a[data-lightbox]:empty {
+    display: none !important;
   }
 
   /* Restore Lightbox controls visibility */
