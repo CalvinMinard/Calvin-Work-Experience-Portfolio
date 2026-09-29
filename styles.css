@@ -95,13 +95,13 @@ header h3 a {
   text-decoration: none;
 }
 
-header h4 {
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
 header h5 {
   font-weight: 300;
+}
+
+main h4 {
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 main {
@@ -259,7 +259,7 @@ section h2,
     margin-bottom: 1rem; /* spacing */
   }
 
-  .work-experience {
+  .work-experience-wrapper {
     max-height: 80vh; /* or whatever height you want */
     overflow-y: auto; /* this makes it the scroll container */
     position: relative; /* required for clean sticky behavior */
