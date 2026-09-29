@@ -224,7 +224,7 @@ section h2,
   }
 
   nav .redirect-link {
-    display: block;
+    display: inline-flex;
   }
 
   .about-contents {
@@ -539,6 +539,13 @@ section h2,
     margin-right: auto;
   }
 
+  .education-card nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
   .education-credentials .tenure {
     font-weight: 500;
     color: var(--color-accent);
@@ -802,12 +809,12 @@ section h2,
     display: inline-block;
   }
 
-  a[data-lightbox]:empty {
+  a[data-lightbox] {
     display: none !important;
   }
 
-  a[data-lightbox]:not(.redirect-link) {
-    display: none !important;
+  a.redirect-link[data-lightbox] {
+    display: inline-flex !important;
   }
 
   /* Restore Lightbox controls visibility */
