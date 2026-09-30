@@ -75,10 +75,12 @@ header {
 }
 
 header nav {
+  position: static;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
   align-items: flex-start;
+  overflow-x: visible;
   overflow-y: visible;
 }
 
@@ -239,13 +241,6 @@ section h2,
     width: 380px;
     position: sticky;
     top: -3rem;
-  }
-
-  /*sticky nav*/
-  nav {
-    position: sticky; /* nav sticks inside header */
-    top: 2rem;
-    overflow-x: hidden; /* how far from top before sticking */
   }
 
   .about-contents {
