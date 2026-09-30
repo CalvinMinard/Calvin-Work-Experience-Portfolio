@@ -75,17 +75,21 @@ header nav {
   flex-direction: column;
   gap: 0.25rem;
   align-items: flex-start;
+  overflow-y: visible;
 }
 
 header nav .redirect-link {
   line-height: 0.8rem;
   align-items: center;
   padding: 0;
+  position: relative;
 }
 
 header nav .redirect-link .pullout {
   position: absolute;
   top: 0;
+  left: 0;
+  pointer-events: none;
 }
 
 header h1,
