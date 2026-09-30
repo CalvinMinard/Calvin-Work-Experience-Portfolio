@@ -552,6 +552,7 @@ section h2,
     flex-direction: column;
     gap: 0.5rem;
     align-items: flex-start;
+    width: 100%;
   }
 
   .education-credentials .tenure {
@@ -811,10 +812,6 @@ section h2,
 
   .pullout {
     margin: 0;
-  }
-
-  a {
-    display: inline-block;
   }
 
   a[data-lightbox] {
