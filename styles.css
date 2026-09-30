@@ -321,6 +321,12 @@ section h2,
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* tight spacing */
+  }
+
   .education-credentials-wrapper {
     max-height: 80vh; /* or whatever height you want */
     overflow-y: auto; /* this makes it the scroll container */
