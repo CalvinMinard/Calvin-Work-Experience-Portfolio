@@ -232,7 +232,6 @@ section h2,
     position: relative;
     min-height: auto;
     padding-right: 1rem;
-    overflow-y: visible;
     width: 380px;
     position: sticky;
     top: -3rem;
