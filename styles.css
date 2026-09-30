@@ -223,10 +223,6 @@ section h2,
     overflow-x: hidden; /* how far from top before sticking */
   }
 
-  nav .redirect-link {
-    display: inline-flex;
-  }
-
   .about-contents {
     display: flex;
     flex-direction: column;
