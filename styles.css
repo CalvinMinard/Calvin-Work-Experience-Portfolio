@@ -70,6 +70,13 @@ header {
   margin-right: auto;
 }
 
+header nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
 header h1,
 header h3,
 header h4,
