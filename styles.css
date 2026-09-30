@@ -77,6 +77,10 @@ header nav {
   align-items: flex-start;
 }
 
+header nav .redirect-link {
+  line-height: 0.8rem;
+}
+
 header h1,
 header h3,
 header h4,
