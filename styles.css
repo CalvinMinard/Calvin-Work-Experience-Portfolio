@@ -315,7 +315,7 @@ section h2,
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: none;
   }
   .projects-wrapper h5 {
     position: sticky;
