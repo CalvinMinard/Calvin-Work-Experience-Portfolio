@@ -317,7 +317,7 @@ section h2,
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
-  .projects-wrapper h6 {
+  .projects-wrapper h5 {
     position: sticky;
     top: 0;
     background: #0f172a; /* or whatever your page background is */
