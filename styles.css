@@ -358,19 +358,13 @@ section h2,
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .project-card {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem; /* tight spacing */
-  }
-
-  .education-credentials-wrapper {
+  .certificates-awards-licenses-wrapper {
     max-height: 80vh; /* or whatever height you want */
     overflow-y: auto; /* this makes it the scroll container */
     position: relative; /* required for clean sticky behavior */
   }
 
-  .education-credentials-wrapper h4 {
+  .certificates-awards-licenses-wrapper h4 {
     position: sticky;
     top: 0;
     background: #0f172a; /* or whatever your page background is */
@@ -380,6 +374,23 @@ section h2,
     text-transform: uppercase;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .certificates-awards-licenses-wrapper h6 {
+    position: sticky;
+    top: 0;
+    background: #0f172a; /* or whatever your page background is */
+    z-index: 10;
+    padding: 0.5rem 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* tight spacing */
   }
 
   #work-experience {
