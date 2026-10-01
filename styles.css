@@ -253,11 +253,7 @@ section h2,
     font-size: 0.9rem;
   }
 
-  #about-me-now {
-    scroll-margin-top: 5rem;
-  }
-
-  #about-me-then {
+  #about-me {
     scroll-margin-top: 5rem;
   }
 
@@ -272,6 +268,18 @@ section h2,
 
   .happenings li {
     margin-bottom: 1rem; /* spacing */
+  }
+
+  .about-me-wrapper h4 {
+    position: sticky;
+    top: 0;
+    background: #0f172a; /* or whatever your page background is */
+    z-index: 10;
+    padding: 0.5rem 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .work-experience-wrapper {
@@ -474,11 +482,7 @@ section h2,
     scroll-margin-top: 5rem;
   }
 
-  #back-to-about-me-now {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-about-me-then {
+  #back-to-about-me {
     scroll-margin-top: 5rem;
   }
 
