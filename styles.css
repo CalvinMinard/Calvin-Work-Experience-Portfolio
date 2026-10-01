@@ -271,8 +271,8 @@ section h2,
   }
 
   .about-me-wrapper {
-    max-height: 20vh; /* or whatever height you want */
-    overflow-y: auto; /* this makes it the scroll container */
+    max-height: none; /* or whatever height you want */
+    overflow-y: visible; /* this makes it the scroll container */
     position: relative; /* required for clean sticky behavior */
   }
 
