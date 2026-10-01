@@ -301,7 +301,7 @@ section h2,
   }
 
   .projects-wrapper {
-    max-height: 40vh; /* or whatever height you want */
+    max-height: 60vh; /* or whatever height you want */
     overflow-y: auto; /* this makes it the scroll container */
     position: relative; /* required for clean sticky behavior */
   }
