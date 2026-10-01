@@ -430,6 +430,7 @@
                     <div class="projects-wrapper" id="projects">
                         <h4 class="lightText">Projects</h4>
                         <h5>Some hobbies and contributions I am proud of:</h5>
+                        <div id="projects-scroll-top"></div>
                         <div class="projects-contents">
                             <section>
                                 <div class="project-card"><p>While working at Motion, I collaborated with the millwrights and made them a <a class="anchor-text" target="_blank" href="public/MotionPuller.jpg">parts puller</a> to their specs and requirements.</p></div>
@@ -480,8 +481,8 @@
                             <span class="right-arrow-puller">&rarr;</span>
                         </a>
                     </div>
-                    <div>
-                        <a class="redirect-link" href="#projects">back to top of Projects &uarr;</a>
+                    <div><a class="redirect-link" onclick="document.getElementById('projects').scrollTo({ top: 0, behavior: 'smooth' });">back to top of Projects ↑</a>
+                        <a class="redirect-link" href="#projects">back to top &uarr;</a>
                     </div>
                 </section>
             </div>
