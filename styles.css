@@ -321,13 +321,13 @@ section h2,
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .education-credentials-wrapper{
+  .education-credentials-wrapper {
     max-height: 80vh; /* or whatever height you want */
     overflow-y: auto; /* this makes it the scroll container */
     position: relative; /* required for clean sticky behavior */
   }
 
- .education-credentials-wrapper h4 {
+  .education-credentials-wrapper h4 {
     position: sticky;
     top: 0;
     background: #0f172a; /* or whatever your page background is */
@@ -348,6 +348,7 @@ section h2,
     text-transform: uppercase;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
 
   .project-card {
     display: flex;
