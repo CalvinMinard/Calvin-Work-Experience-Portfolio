@@ -277,7 +277,7 @@ section h2,
   }
 
   .about-me-wrapper h4 {
-    position: sticky;
+    position: relative;
     top: 2rem;
     background: #0f172a; /* or whatever your page background is */
     z-index: 10;
