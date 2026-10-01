@@ -270,6 +270,12 @@ section h2,
     margin-bottom: 1rem; /* spacing */
   }
 
+  .about-me-wrapper {
+    max-height: 40vh; /* or whatever height you want */
+    overflow-y: auto; /* this makes it the scroll container */
+    position: relative; /* required for clean sticky behavior */
+  }
+
   .about-me-wrapper h4 {
     position: sticky;
     top: 2rem;
