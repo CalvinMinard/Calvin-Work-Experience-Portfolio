@@ -330,7 +330,7 @@ section h2,
   }
 
   .education-credentials-wrapper {
-    max-height: 80vh; /* or whatever height you want */
+    max-height: 60vh; /* or whatever height you want */
     overflow-y: auto; /* this makes it the scroll container */
     position: relative; /* required for clean sticky behavior */
   }
@@ -359,7 +359,7 @@ section h2,
   }
 
   .certificates-awards-licenses-wrapper {
-    max-height: 80vh; /* or whatever height you want */
+    max-height: 60vh; /* or whatever height you want */
     overflow-y: auto; /* this makes it the scroll container */
     position: relative; /* required for clean sticky behavior */
   }
