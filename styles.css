@@ -319,7 +319,7 @@ section h2,
   }
   .projects-wrapper h5 {
     position: sticky;
-    top: 0;
+    top: 3rem;
     background: #0f172a; /* or whatever your page background is */
     z-index: 10;
     padding: 0.5rem 0;
