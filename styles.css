@@ -254,7 +254,7 @@ section h2,
   }
 
   #about-me {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 8rem;
   }
 
   #happenings {
@@ -927,9 +927,5 @@ section h2,
 
   section:nth-of-type(even) {
     background: rgba(255, 255, 255, 0.06);
-  }
-
-  main section:first-of-type {
-    padding-top: 5rem;
   }
 }
