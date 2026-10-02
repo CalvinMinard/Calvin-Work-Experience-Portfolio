@@ -280,6 +280,7 @@ section h2,
     max-height: 50vh; /* or whatever height you want */
     overflow-y: auto; /* this makes it the scroll container */
     position: relative; /* required for clean sticky behavior */
+    margin-bottom: 3rem;
   }
 
   .work-experience-wrapper h4 {
