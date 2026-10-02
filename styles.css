@@ -254,7 +254,7 @@ section h2,
   }
 
   #about-me {
-    margin-top: 10rem;
+    scroll-margin-top: 10rem;
   }
 
   #happenings {
