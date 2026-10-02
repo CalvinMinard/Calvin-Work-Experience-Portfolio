@@ -280,7 +280,7 @@ section h2,
     position: static;
     background: #0f172a; /* or whatever your page background is */
     z-index: 10;
-    padding: 5rem 0;
+    padding: 1rem 0;
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
