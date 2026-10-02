@@ -274,6 +274,7 @@ section h2,
     max-height: none; /* or whatever height you want */
     overflow-y: visible; /* this makes it the scroll container */
     position: static; /* required for clean sticky behavior */
+    margin-bottom: 5rem;
   }
 
   .about-me-wrapper h4 {
