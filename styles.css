@@ -253,10 +253,6 @@ section h2,
     font-size: 0.9rem;
   }
 
-  #about-me {
-    scroll-margin-top: 10rem;
-  }
-
   .about-me-wrapper {
     max-height: none; /* or whatever height you want */
     overflow-y: visible; /* this makes it the scroll container */
@@ -277,10 +273,9 @@ section h2,
   }
 
   .work-experience-wrapper {
-    max-height: 50vh; /* or whatever height you want */
+    max-height: 55vh; /* or whatever height you want */
     overflow-y: auto; /* this makes it the scroll container */
     position: relative; /* required for clean sticky behavior */
-    margin-bottom: 3rem;
   }
 
   .work-experience-wrapper h4 {
@@ -325,7 +320,7 @@ section h2,
   }
 
   .education-credentials-wrapper {
-    max-height: 60vh; /* or whatever height you want */
+    max-height: 50vh; /* or whatever height you want */
     overflow-y: auto; /* this makes it the scroll container */
     position: relative; /* required for clean sticky behavior */
   }
@@ -387,93 +382,52 @@ section h2,
     flex-direction: column;
     gap: 0.5rem; /* tight spacing */
   }
-
-  #work-experience {
-    scroll-margin-top: 5rem;
-  }
-
-  #projects {
-    scroll-margin-top: 5rem;
-  }
-
-  #education {
-    scroll-margin-top: 5rem;
-  }
-
-  #certificates {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-boats {
-    scroll-margin-top: 5rem;
+  .about-me-anchor,
+  .work-experience-anchor,
+  .projects-anchor,
+  .education-and-credentials-anchor,
+  .certifications-awards-licenses-anchor {
+    scroll-margin-top: 14rem;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
   }
 
   #boat-builder {
     scroll-margin-top: 5rem;
   }
 
-  #back-to-factory {
-    scroll-margin-top: 5rem;
-  }
-
   #factory {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-inspira {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 15rem;
   }
 
   #inspira {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-armor {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 3rem;
   }
 
   #armor {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-weatherford {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 13rem;
   }
 
   #weatherford {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-argus {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 15rem;
   }
 
   #argus {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-apollo {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 15rem;
   }
 
   #apollo {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-pv-not {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 14rem;
   }
 
   #pv-not {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-motion {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 10rem;
   }
 
   #motion {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 10rem;
   }
 
   #brunette {
@@ -488,10 +442,6 @@ section h2,
     scroll-margin-top: 5rem;
   }
 
-  #back-to-about-me {
-    scroll-margin-top: 5rem;
-  }
-
   #back-to-work-experience {
     scroll-margin-top: 5rem;
   }
@@ -501,42 +451,6 @@ section h2,
   }
 
   #back-to-education {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-boat-builder {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-factory {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-inspira {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-armor {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-weatherford {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-argus {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-apollo {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-pv-not {
-    scroll-margin-top: 5rem;
-  }
-
-  #back-to-motion {
     scroll-margin-top: 5rem;
   }
 
@@ -664,6 +578,35 @@ section h2,
     color: var(--color-accent);
   }
 
+  #back-to-nait-cnc > div:last-child {
+    margin-top: 2rem; /* separation from tags */
+    flex-basis: 100%; /* force onto its own row */
+    text-align: left; /* left-align the link */
+  }
+  #back-to-drivers-license > div:last-child {
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  .certificates-awards-licenses-contents {
+    display: block;
+  }
+
+  #gibbscam a.redirect-link {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  #back-to-certificates a.redirect-link {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  #back-to-drivers-license a.redirect-link {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
   .tag {
     border-radius: 0.5rem;
     padding: 0.25rem 0.5rem;
@@ -695,7 +638,7 @@ section h2,
     color: var(--color-highlight);
     text-decoration: none;
     transition-duration: 200ms;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 200;
   }
 
@@ -915,5 +858,23 @@ section h2,
 
   section:nth-of-type(even) {
     background: rgba(255, 255, 255, 0.06);
+  }
+
+  .top-of-section-link {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 2rem; /* separation from tags */
+    flex-basis: 100%; /* force onto its own row */
+    text-align: left; /* left-align the link */
+    color: var(--color-highlight);
+    text-decoration: none;
+    transition-duration: 200ms;
+    gap: 0.25rem;
+    overflow: visible;
+  }
+
+  .top-of-section-link hover {
+    color: var(--color-accent);
+    text-decoration: underline;
   }
 }
